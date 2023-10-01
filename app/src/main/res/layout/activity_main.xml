@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="24dp"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:text="Mercearia do Romeu"
+        android:textStyle="normal"
+        android:textSize="30dp"
+        android:layout_gravity="center"
+        android:layout_marginBottom="48dp"
+        android:textColor="#9370DB"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Cadastrar Cliente"
+        android:textSize="20sp"
+        android:textColor="#FFFFFF"
+        android:id="@+id/btCadastrarCliente"
+        android:layout_marginTop="32dp"
+        android:paddingVertical="12dp"
+        android:backgroundTint="#9370DB"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Cadastrar Produto"
+        android:textSize="20sp"
+        android:textColor="#FFFFFF"
+        android:id="@+id/btCadastrarProduto"
+        android:layout_marginTop="16dp"
+        android:paddingVertical="12dp"
+        android:backgroundTint="#9370DB"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Cadastrar Pedido"
+        android:textSize="20sp"
+        android:textColor="#FFFFFF"
+        android:id="@+id/btCadastrarPedido"
+        android:layout_marginTop="16dp"
+        android:paddingVertical="12dp"
+        android:backgroundTint="#9370DB"
+        />
+
+</LinearLayout>
